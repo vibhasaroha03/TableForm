@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-table</title>
+  </head>
+  <body>
+    <center>
+      <table rules="none" height="500px">
+        <form name="tableform">
+          <tr>
+            <th colspan="2" bgcolor="grey"><h2>RESUME</h2></th>
+          </tr>
+          <tr>
+            <td width="40%">User name</td>
+            <td>
+              <input
+                type="text "
+                name="name"
+                placeholder="Enter name"
+                width="40%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td>
+              <input type="password" name="pass" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Father's Name</td>
+            <td><input type="text " name="fname" /></td>
+          </tr>
+          <tr>
+            <td>D.O.B</td>
+            <td><input type="date" name="date" /></td>
+          </tr>
+          <tr>
+            <td>Age</td>
+            <td><input type="number" name="age" /></td>
+          </tr>
+          <tr>
+            <td>Sex</td>
+            <td>
+              <input type="radio" name="s" />Male
+              <input type="radio" name="s" />Female
+            </td>
+          </tr>
+          <tr>
+            <td>Relationship Status</td>
+            <td>
+              <input type="radio" name="r" />Married
+              <input type="radio" name="r" />Unmarried
+            </td>
+          </tr>
+
+          <tr>
+            <td>Qualification</td>
+            <td>
+              <select name="idselect">
+                <option disabled selected>Select</option>
+                <option value="ug">Graduation</option>
+                <option value="pg">Post Graduation</option>
+                <option value="diploma">Diploma</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Hobbies</td>
+            <td>
+              <input type="checkbox" name="h" value="Dance " />Dance
+              <input type="checkbox" name="h" value="Dance " />Music
+              <input type="checkbox" name="h" value="Dance " />Reading
+              <input type="checkbox" name="h" value="Dance " />Coding
+            </td>
+          </tr>
+          <tr>
+            <td rows="2">Past Work Experiance</td>
+            <td>
+              <textarea name="work"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" />
+            </td>
+          </tr>
+        </form>
+      </table>
+    </center>
+  </body>
+</html>
